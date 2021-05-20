@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+.logo{
+    font-family: 'Sedgwick Ave', cursive;
+}
+.login, .register{
+    padding: 30px;
+    margin: 30px 50px 0px 50px ;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+    color: white;
+}
+.recipe-labels{
+    font-size: 25px;
+}
+table{
+    margin-top: 30px;
+}
